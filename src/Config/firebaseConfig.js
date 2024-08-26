@@ -36,13 +36,13 @@ import { getFirestore } from "firebase/firestore";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAY0nROYHSdLZGHDN3kA6qe8mp63UoR4zQ",
-  authDomain: "agrisure-nikilteam.firebaseapp.com",
-  databaseURL: "https://agrisure-nikilteam-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "agrisure-nikilteam",
-  storageBucket: "agrisure-nikilteam.appspot.com",
-  messagingSenderId: "918548859924",
-  appId: "1:918548859924:web:edc9f80ba494c9b7f96b01"
+  apiKey: "AIzaSyA0YIuDXNUMEeMgcvGenAbCYYUZ9UFJSek",
+  authDomain: "biowhizz-10d97.firebaseapp.com",
+  databaseURL: "https://biowhizz-10d97-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "biowhizz-10d97",
+  storageBucket: "biowhizz-10d97.appspot.com",
+  messagingSenderId: "899439777013",
+  appId: "1:899439777013:web:11f775b91760234d64a1bc"
 };
 
 // Initialize Firebase

@@ -1,14 +1,14 @@
-import React from 'react'
-import Dashboard from './dashboard'
-import Navbar from './Navbar'
+import React from 'react';
+import Dashboard from './dashboard';
+import Navbar from './Navbar';
 
-function main() {
+function Main() {
   return (
     <div>
-        <Navbar/>
-        <Dashboard/>
+      <Navbar />
+      <Dashboard />
     </div>
-  )
+  );
 }
 
-export default main
+export default Main;
