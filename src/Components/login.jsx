@@ -33,7 +33,7 @@ function Signin() {
             Your smart, all-in-one solution for effortless biogas management and optimization.
           </p>
         </div>
-        <h1 className="text-3xl font-bold text-green-800 mb-6 text-center">Sign-In</h1>
+        <h1 className="text-3xl font-bold text-green-800 animate-pulse mb-6 text-center">Sign-In</h1>
         <div className="flex flex-col items-center">
           <button
             onClick={handleClick}
