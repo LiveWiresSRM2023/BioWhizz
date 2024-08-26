@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import google from '../assets/google.png';
+import biowhizzlogo from '../assets/biowhizzlogo.png';
 import { useNavigate } from 'react-router-dom';
 import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../Config/firebaseConfig';
-// import './styles.css'; // Make sure to include this file for additional custom styles
 
 function Signin() {
   const [redirect, setRedirect] = useState(false);
@@ -27,6 +27,9 @@ function Signin() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-green-100 to-yellow-100 p-4">
       <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full transition-transform transform hover:scale-105 hover:shadow-2xl">
+        <div className="flex justify-center mb-6">
+          <img src={biowhizzlogo} alt="Biowhizz Logo" className="w-40 h-40" />
+        </div>
         <h1 className="text-3xl font-bold text-green-800 mb-6 text-center">Sign-In</h1>
         <div className="flex flex-col items-center">
           <button
