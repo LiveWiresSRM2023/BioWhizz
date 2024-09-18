@@ -82,7 +82,7 @@ function Navbar() {
               </div>
               <div className="p-4 border border-gray-300 rounded-lg bg-yellow-300">
                 <h3 className="text-xl font-semibold mb-2">Pro Plan</h3>
-                <p className="text-gray-700 mb-2">1500 for Renewal</p>
+                <p className="text-gray-700 mb-2">1500 for Renewal </p>
                 <p className="text-red-600 font-bold text-lg">1500/-</p>
               </div>
             </div>
