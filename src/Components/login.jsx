@@ -40,7 +40,7 @@ function Signin() {
             className="flex items-center px-4 py-2 bg-green-500 text-white rounded-lg shadow-md hover:bg-green-600 transition duration-300 ease-in-out transform hover:scale-105"
           >
             <img src={google} alt="Google logo" className="w-8 h-8 mr-2" />
-            <span>Continue with Google</span>
+            <span>Continue with Google </span>
           </button>
         </div>
       </div>
